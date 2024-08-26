@@ -1,7 +1,46 @@
-.center {
-    text-align: center;
+body {
+    margin: 0;
 }
 
-.justify {
+body div {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.general-style {
+    font-family: Arial;
+}
+.name-title {
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    padding: 2px;
+    height: 12vh;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, gray);
+}
+
+.personal-profile {
     text-align: justify;
+    font-size: 20px;
+}
+
+#profile, #skills-list, #work-experience, #languages{
+    font-size: 20px;
+}
+
+.footer-style {
+    font-family: Arial;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, black, gray);
 }
