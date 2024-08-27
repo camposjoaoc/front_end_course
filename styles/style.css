@@ -1,46 +1,93 @@
 body {
     margin: 0;
+    background-color: white;
 }
 
-body div {
+body div p {
     margin-top: 5px;
     margin-left: 20px;
     margin-bottom: 5px;
     margin-right: 20px;
 }
-.general-style {
-    font-family: Arial;
+
+h3 {
+    font-family: Helvetica Neue;
+    color: black;
+    margin: 0;
+    padding: 0;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFF0F2;
 }
+
+h4 {
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.general-style {
+    font-family: Helvetica;
+}
+
 .name-title {
     text-align: center;
-    font-family: Arial;
+    font-family: barlow;
     color: white;
     margin: 0;
-    padding: 2px;
-    height: 12vh;
+    padding: 3px;
+    height: 11vh;
     display: block;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, black, gray);
+    background: linear-gradient(to right, black, #F3F2EF);
 }
 
 .personal-profile {
     text-align: justify;
     font-size: 20px;
+    margin-top: 5px;
 }
 
-#profile, #skills-list, #work-experience, #languages{
+#profile,
+#skills-list,
+#work-experience,
+#languages {
     font-size: 20px;
+
 }
 
-.footer-style {
-    font-family: Arial;
+.two-columns {
+    columns: 3;
+    column-gap: 50px;
+}
+
+.footer-style h3 {
+    font-family: Helvetica Neue;
     color: white;
     margin: 0;
     padding: 0;
-    height: 5vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, black, gray);
+    background: linear-gradient(to right, black, #F3F2EF);
+}
+
+#linkedin {
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    margin: 5px;
+    background-color: white;
+}
+
+#profile-picture {
+    height: 100px;
+    width: 100px;
+    border-radius: 70px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
 }
