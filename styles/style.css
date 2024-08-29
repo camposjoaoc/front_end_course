@@ -11,7 +11,7 @@ body div p {
 }
 
 h3 {
-    font-family: Helvetica Neue;
+    font-family: Helvetica, sans-serif;
     color: black;
     margin: 0;
     padding: 0;
@@ -28,12 +28,12 @@ h4 {
 }
 
 .general-style {
-    font-family: Helvetica;
+    font-family: Helvetica, sans-serif;
 }
 
 .name-title {
     text-align: center;
-    font-family: barlow;
+    font-family: Helvetica, sans-serif;
     color: white;
     margin: 0;
     padding: 3px;
@@ -64,7 +64,7 @@ h4 {
 }
 
 .footer-style h3 {
-    font-family: Helvetica Neue;
+    font-family: Helvetica, sans-serif;
     color: white;
     margin: 0;
     padding: 0;
